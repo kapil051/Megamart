@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 
-export function Electronics() {
+export function Sports() {
 
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const items = [
-    { src: '../src/assets/images/one.webp', alt: 'Wireless Headphone' },
-    { src: '../src/assets/images/two.webp', alt: 'Noise Smartwatches' },
-    { src: '../src/assets/images/three.webp', alt: 'Mobile Speaker' },
-    { src: '../src/assets/images/four.webp', alt: 'Mirrorless Camera' },
-    { src: '../src/assets/images/five.webp', alt: 'Full HD LED' },
-    { src: '../src/assets/images/six.webp', alt: 'Dell Fuctional Keyboard' },
-    { src: '../src/assets/images/seven.webp', alt: 'Wireless functional Printer' },
+    { src: '../src/assets/images/batMan.webp', alt: 'Best of Action Toys' },
+    { src: '../src/assets/images/car.webp', alt: 'Remote Control Toys' },
+    { src: '../src/assets/images/drawing.webp', alt: 'Learning Education Games' },
+    { src: '../src/assets/images/dryFruits.webp', alt: 'Dry Fruits' },
+    { src: '../src/assets/images/guitar.webp', alt: 'Remote Guitar' },
+    { src: '../src/assets/images/gym.webp', alt: 'Gym Essentials' },
+    { src: '../src/assets/images/pen.webp', alt: 'Top Selling Stationary' },
   ];
 
   const scrollRight = () => {
@@ -30,7 +30,7 @@ export function Electronics() {
     <div className="bg-white shadow-lg m-4 p-4 rounded-lg">
 
       <div className="text-2xl font-medium m-3 text-gray-800">
-        Best of Electronics
+        Beuty,Food,Toys & More
       </div>
 
       <div className="relative flex items-center justify-center">
