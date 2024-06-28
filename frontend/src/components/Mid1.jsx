@@ -1,4 +1,4 @@
-// src/components/Mid1.jsx
+
 import React from 'react';
 
 export function Mid1() {
@@ -81,4 +81,4 @@ export function Mid1() {
     );
 }
 
-export default Mid1;
+

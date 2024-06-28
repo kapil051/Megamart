@@ -1,28 +1,18 @@
-import './App.css'
-import { All } from './components/All'
-import { Mid1 } from './components/Mid1'
-import {Navbar }from './components/Navbar'
-import { Mid3 } from './components/Mid3'
-import { Electronics } from './components/Electronics'
-import { Sports } from './components/Sports'
-
-
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import {Home} from "./components/Home"
+import {LoginPage} from "./components/Loginpage"
 
 function App() {
-
-
   return (
-    <>
-
-        <Navbar></Navbar>
-        <Mid1></Mid1>
-        <Mid3></Mid3>
-        <Electronics></Electronics>
-        <Sports></Sports>
-      {/* <All></All> */}
-
-    </>
-  )
+  
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/login" element={<LoginPage/>} ></Route>
+      </Routes>
+ 
+  );
 }
 
-export default App
+export default App;
+
